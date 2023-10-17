@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/background-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.elenco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-container{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.texto{
+    display: flex;
+    justify-content:end;
+    flex-grow: .7;
+}
+
+.texto p{
+    color: rgba(255, 255, 255, 0.322);
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.5rem;
+    width: 150px;
+    text-align: start;
+}
+
+
+.logos{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px;
+}
+
+.logos a img{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -350px;
+    width: 150px;
+    height: 150px;
+}
