@@ -14,10 +14,8 @@ body{
     width: 100vw;
 }
 
-.elenco{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header{
+    padding: 20px 50px 0px 50px;
 }
 
 .conteudo-container{
@@ -49,10 +47,30 @@ body{
     padding-top: 50px;
 }
 
+footer{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100vw;
+}
+
+footer p{
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Convergence', sans-serif;
+    padding: 0px 104px 0px 104px;
+    text-align: center;
+}
+
 .logos a img{
     position: absolute;
     margin-top: -180px;
     margin-left: -350px;
     width: 150px;
     height: 150px;
+}
+@media (max-width:768px){
+    body{
+        background-image: url;
+    }
+
 }

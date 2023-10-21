@@ -1,26 +1,44 @@
 .ator1{
-    width: 50px;
+    width: 100px;
+    height: 60px;
 }
 
 .ator2{
     width: 95px;
+    height: 60px;
 }
 
 .ator3{
     width: 50px;
+    height: 60px;
 }
 
 .ator4{
     width: 95px;
+    height: 60px;
 }
 
 .ator5{
-    width: 90px;
+    width: 95px;
+    height: 60px;
 }
 
 .elenco a{
     color: #fff;
-    padding: 10px 90px 10px 50px;
-    font-size: .9rem;
+    font-size: 1rem;
+    font-weight: 100;
     font-family: 'Convergence', sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff00;
+}
+.elenco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 100px;
+}
+
+.elenco a:hover{
+    border-bottom: 2px solid #ffffff;
 }
